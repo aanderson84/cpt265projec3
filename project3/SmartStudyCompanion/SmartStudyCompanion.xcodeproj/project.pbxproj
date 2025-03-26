@@ -16,7 +16,23 @@
 		15C806762D7B2765001B2399 /* SmartStudyCompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C806752D7B2765001B2399 /* SmartStudyCompanionTests.swift */; };
 		15C806802D7B2765001B2399 /* SmartStudyCompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C8067F2D7B2765001B2399 /* SmartStudyCompanionUITests.swift */; };
 		15C806822D7B2765001B2399 /* SmartStudyCompanionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C806812D7B2765001B2399 /* SmartStudyCompanionUITestsLaunchTests.swift */; };
-		15CED5EC2D7B78B100984F9F /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CED5EB2D7B78B100984F9F /* StatsView.swift */; };
+		86157FAF2D92836A00AB7005 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86157FAE2D92836A00AB7005 /* SettingsView.swift */; };
+		86157FB12D92838C00AB7005 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86157FB02D92838C00AB7005 /* AchievementsView.swift */; };
+		86157FB52D929A9100AB7005 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86157FB42D929A9100AB7005 /* SessionsView.swift */; };
+		86157FC22D92AE9600AB7005 /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86157FC12D92AE9600AB7005 /* PressStart2P-Regular.ttf */; };
+		86157FC92D92D83500AB7005 /* Badum-tss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86157FC82D92D83500AB7005 /* Badum-tss.mp3 */; };
+		869F23302D93120300170DAA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869F232F2D93120300170DAA /* Launch Screen.storyboard */; };
+		869F23372D932B4800170DAA /* bear-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23362D932B4800170DAA /* bear-sound.mp3 */; };
+		869F23392D932B5E00170DAA /* action-game-music-background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23382D932B5E00170DAA /* action-game-music-background.mp3 */; };
+		869F233B2D932B6A00170DAA /* ding-sound-effect-download.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F233A2D932B6A00170DAA /* ding-sound-effect-download.mp3 */; };
+		869F233D2D932B7200170DAA /* farm-cow-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F233C2D932B7200170DAA /* farm-cow-sound-effect.mp3 */; };
+		869F233F2D932B7A00170DAA /* sad-violin-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F233E2D932B7A00170DAA /* sad-violin-sound-effect.mp3 */; };
+		869F23412D932B8000170DAA /* ship-siren-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23402D932B8000170DAA /* ship-siren-sound.mp3 */; };
+		869F23432D932B8800170DAA /* low-beep-tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23422D932B8800170DAA /* low-beep-tone.mp3 */; };
+		869F23452D932B8E00170DAA /* tinkling-bells-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23442D932B8E00170DAA /* tinkling-bells-sound-effect.mp3 */; };
+		869F23472D932B9500170DAA /* miniature-bell-chime-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23462D932B9500170DAA /* miniature-bell-chime-sound-effect.mp3 */; };
+		869F23492D932B9B00170DAA /* minecraft-villager-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23482D932B9B00170DAA /* minecraft-villager-sound.mp3 */; };
+		869F234B2D932BB700170DAA /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 869F234A2D932BA500170DAA /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +66,23 @@
 		15C8067F2D7B2765001B2399 /* SmartStudyCompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStudyCompanionUITests.swift; sourceTree = "<group>"; };
 		15C806812D7B2765001B2399 /* SmartStudyCompanionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStudyCompanionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15C8068E2D7B27B9001B2399 /* SmartStudyCompanion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartStudyCompanion.entitlements; sourceTree = "<group>"; };
-		15CED5EB2D7B78B100984F9F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		86157FAE2D92836A00AB7005 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		86157FB02D92838C00AB7005 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		86157FB42D929A9100AB7005 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+		86157FC12D92AE9600AB7005 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
+		86157FC82D92D83500AB7005 /* Badum-tss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Badum-tss.mp3"; sourceTree = "<group>"; };
+		869F232F2D93120300170DAA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		869F23362D932B4800170DAA /* bear-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bear-sound.mp3"; sourceTree = "<group>"; };
+		869F23382D932B5E00170DAA /* action-game-music-background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "action-game-music-background.mp3"; sourceTree = "<group>"; };
+		869F233A2D932B6A00170DAA /* ding-sound-effect-download.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ding-sound-effect-download.mp3"; sourceTree = "<group>"; };
+		869F233C2D932B7200170DAA /* farm-cow-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "farm-cow-sound-effect.mp3"; sourceTree = "<group>"; };
+		869F233E2D932B7A00170DAA /* sad-violin-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sad-violin-sound-effect.mp3"; sourceTree = "<group>"; };
+		869F23402D932B8000170DAA /* ship-siren-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ship-siren-sound.mp3"; sourceTree = "<group>"; };
+		869F23422D932B8800170DAA /* low-beep-tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "low-beep-tone.mp3"; sourceTree = "<group>"; };
+		869F23442D932B8E00170DAA /* tinkling-bells-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tinkling-bells-sound-effect.mp3"; sourceTree = "<group>"; };
+		869F23462D932B9500170DAA /* miniature-bell-chime-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "miniature-bell-chime-sound-effect.mp3"; sourceTree = "<group>"; };
+		869F23482D932B9B00170DAA /* minecraft-villager-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "minecraft-villager-sound.mp3"; sourceTree = "<group>"; };
+		869F234A2D932BA500170DAA /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +113,7 @@
 		15C806532D7B2760001B2399 = {
 			isa = PBXGroup;
 			children = (
+				86157FC72D92D82300AB7005 /* Sounds */,
 				15C8065E2D7B2760001B2399 /* SmartStudyCompanion */,
 				15C806742D7B2765001B2399 /* SmartStudyCompanionTests */,
 				15C8067E2D7B2765001B2399 /* SmartStudyCompanionUITests */,
@@ -101,11 +134,15 @@
 		15C8065E2D7B2760001B2399 /* SmartStudyCompanion */ = {
 			isa = PBXGroup;
 			children = (
+				869F232F2D93120300170DAA /* Launch Screen.storyboard */,
 				15C8068E2D7B27B9001B2399 /* SmartStudyCompanion.entitlements */,
 				15C8065F2D7B2760001B2399 /* SmartStudyCompanionApp.swift */,
 				15C806612D7B2760001B2399 /* ContentView.swift */,
+				86157FC12D92AE9600AB7005 /* PressStart2P-Regular.ttf */,
 				15C806632D7B2764001B2399 /* Assets.xcassets */,
-				15CED5EB2D7B78B100984F9F /* StatsView.swift */,
+				86157FAE2D92836A00AB7005 /* SettingsView.swift */,
+				86157FB02D92838C00AB7005 /* AchievementsView.swift */,
+				86157FB42D929A9100AB7005 /* SessionsView.swift */,
 				15C806682D7B2764001B2399 /* Persistence.swift */,
 				15C8066A2D7B2764001B2399 /* SmartStudyCompanion.xcdatamodeld */,
 				15C806652D7B2764001B2399 /* Preview Content */,
@@ -136,6 +173,25 @@
 				15C806812D7B2765001B2399 /* SmartStudyCompanionUITestsLaunchTests.swift */,
 			);
 			path = SmartStudyCompanionUITests;
+			sourceTree = "<group>";
+		};
+		86157FC72D92D82300AB7005 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				869F234A2D932BA500170DAA /* README.txt */,
+				86157FC82D92D83500AB7005 /* Badum-tss.mp3 */,
+				869F23362D932B4800170DAA /* bear-sound.mp3 */,
+				869F23382D932B5E00170DAA /* action-game-music-background.mp3 */,
+				869F233A2D932B6A00170DAA /* ding-sound-effect-download.mp3 */,
+				869F233C2D932B7200170DAA /* farm-cow-sound-effect.mp3 */,
+				869F233E2D932B7A00170DAA /* sad-violin-sound-effect.mp3 */,
+				869F23402D932B8000170DAA /* ship-siren-sound.mp3 */,
+				869F23422D932B8800170DAA /* low-beep-tone.mp3 */,
+				869F23442D932B8E00170DAA /* tinkling-bells-sound-effect.mp3 */,
+				869F23462D932B9500170DAA /* miniature-bell-chime-sound-effect.mp3 */,
+				869F23482D932B9B00170DAA /* minecraft-villager-sound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +258,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					15C8065B2D7B2760001B2399 = {
 						CreatedOnToolsVersion = 15.2;
@@ -242,8 +298,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86157FC22D92AE9600AB7005 /* PressStart2P-Regular.ttf in Resources */,
+				869F23492D932B9B00170DAA /* minecraft-villager-sound.mp3 in Resources */,
+				869F23452D932B8E00170DAA /* tinkling-bells-sound-effect.mp3 in Resources */,
+				869F23432D932B8800170DAA /* low-beep-tone.mp3 in Resources */,
+				869F23412D932B8000170DAA /* ship-siren-sound.mp3 in Resources */,
+				869F23472D932B9500170DAA /* miniature-bell-chime-sound-effect.mp3 in Resources */,
+				869F234B2D932BB700170DAA /* README.txt in Resources */,
 				15C806672D7B2764001B2399 /* Preview Assets.xcassets in Resources */,
 				15C806642D7B2764001B2399 /* Assets.xcassets in Resources */,
+				869F233F2D932B7A00170DAA /* sad-violin-sound-effect.mp3 in Resources */,
+				869F233B2D932B6A00170DAA /* ding-sound-effect-download.mp3 in Resources */,
+				869F23302D93120300170DAA /* Launch Screen.storyboard in Resources */,
+				869F233D2D932B7200170DAA /* farm-cow-sound-effect.mp3 in Resources */,
+				869F23372D932B4800170DAA /* bear-sound.mp3 in Resources */,
+				869F23392D932B5E00170DAA /* action-game-music-background.mp3 in Resources */,
+				86157FC92D92D83500AB7005 /* Badum-tss.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +339,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C8066C2D7B2764001B2399 /* SmartStudyCompanion.xcdatamodeld in Sources */,
-				15CED5EC2D7B78B100984F9F /* StatsView.swift in Sources */,
 				15C806692D7B2764001B2399 /* Persistence.swift in Sources */,
+				86157FB52D929A9100AB7005 /* SessionsView.swift in Sources */,
+				86157FB12D92838C00AB7005 /* AchievementsView.swift in Sources */,
+				86157FAF2D92836A00AB7005 /* SettingsView.swift in Sources */,
 				15C806622D7B2760001B2399 /* ContentView.swift in Sources */,
 				15C806602D7B2760001B2399 /* SmartStudyCompanionApp.swift in Sources */,
 			);
@@ -491,7 +563,6 @@
 		15C806892D7B2765001B2399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -510,7 +581,6 @@
 		15C8068A2D7B2765001B2399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -529,7 +599,6 @@
 		15C8068C2D7B2765001B2399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -546,7 +615,6 @@
 		15C8068D2D7B2765001B2399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
