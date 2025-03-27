@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C806602D7B2760001B2399 /* SmartStudyCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C8065F2D7B2760001B2399 /* SmartStudyCompanionApp.swift */; };
+		15C806622D7B2760001B2399 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C806612D7B2760001B2399 /* ContentView.swift */; };
+		15C806642D7B2764001B2399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C806632D7B2764001B2399 /* Assets.xcassets */; };
+		15C806672D7B2764001B2399 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C806662D7B2764001B2399 /* Preview Assets.xcassets */; };
+		15C806692D7B2764001B2399 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C806682D7B2764001B2399 /* Persistence.swift */; };
+		15C8066C2D7B2764001B2399 /* SmartStudyCompanion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15C8066A2D7B2764001B2399 /* SmartStudyCompanion.xcdatamodeld */; };
+		15C806762D7B2765001B2399 /* SmartStudyCompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C806752D7B2765001B2399 /* SmartStudyCompanionTests.swift */; };
+		15C806802D7B2765001B2399 /* SmartStudyCompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C8067F2D7B2765001B2399 /* SmartStudyCompanionUITests.swift */; };
+		15C806822D7B2765001B2399 /* SmartStudyCompanionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C806812D7B2765001B2399 /* SmartStudyCompanionUITestsLaunchTests.swift */; };
+		86157FAF2D92836A00AB7005 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86157FAE2D92836A00AB7005 /* SettingsView.swift */; };
+		86157FB12D92838C00AB7005 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86157FB02D92838C00AB7005 /* AchievementsView.swift */; };
+		86157FB52D929A9100AB7005 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86157FB42D929A9100AB7005 /* SessionsView.swift */; };
+		86157FC22D92AE9600AB7005 /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86157FC12D92AE9600AB7005 /* PressStart2P-Regular.ttf */; };
+		86157FC92D92D83500AB7005 /* Badum-tss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86157FC82D92D83500AB7005 /* Badum-tss.mp3 */; };
+		869F23302D93120300170DAA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869F232F2D93120300170DAA /* Launch Screen.storyboard */; };
+		869F23372D932B4800170DAA /* bear-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23362D932B4800170DAA /* bear-sound.mp3 */; };
+		869F23392D932B5E00170DAA /* action-game-music-background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23382D932B5E00170DAA /* action-game-music-background.mp3 */; };
+		869F233B2D932B6A00170DAA /* ding-sound-effect-download.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F233A2D932B6A00170DAA /* ding-sound-effect-download.mp3 */; };
+		869F233D2D932B7200170DAA /* farm-cow-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F233C2D932B7200170DAA /* farm-cow-sound-effect.mp3 */; };
+		869F233F2D932B7A00170DAA /* sad-violin-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F233E2D932B7A00170DAA /* sad-violin-sound-effect.mp3 */; };
+		869F23412D932B8000170DAA /* ship-siren-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23402D932B8000170DAA /* ship-siren-sound.mp3 */; };
+		869F23432D932B8800170DAA /* low-beep-tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23422D932B8800170DAA /* low-beep-tone.mp3 */; };
+		869F23452D932B8E00170DAA /* tinkling-bells-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23442D932B8E00170DAA /* tinkling-bells-sound-effect.mp3 */; };
+		869F23472D932B9500170DAA /* miniature-bell-chime-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23462D932B9500170DAA /* miniature-bell-chime-sound-effect.mp3 */; };
+		869F23492D932B9B00170DAA /* minecraft-villager-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 869F23482D932B9B00170DAA /* minecraft-villager-sound.mp3 */; };
+		869F234B2D932BB700170DAA /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 869F234A2D932BA500170DAA /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15C806722D7B2765001B2399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C806542D7B2760001B2399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C8065B2D7B2760001B2399;
+			remoteInfo = SmartStudyCompanion;
+		};
+		15C8067C2D7B2765001B2399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C806542D7B2760001B2399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C8065B2D7B2760001B2399;
+			remoteInfo = SmartStudyCompanion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C8065C2D7B2760001B2399 /* SmartStudyCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartStudyCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C8065F2D7B2760001B2399 /* SmartStudyCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStudyCompanionApp.swift; sourceTree = "<group>"; };
+		15C806612D7B2760001B2399 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15C806632D7B2764001B2399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15C806662D7B2764001B2399 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15C806682D7B2764001B2399 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		15C8066B2D7B2764001B2399 /* SmartStudyCompanion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartStudyCompanion.xcdatamodel; sourceTree = "<group>"; };
+		15C806712D7B2765001B2399 /* SmartStudyCompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartStudyCompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C806752D7B2765001B2399 /* SmartStudyCompanionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStudyCompanionTests.swift; sourceTree = "<group>"; };
+		15C8067B2D7B2765001B2399 /* SmartStudyCompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartStudyCompanionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C8067F2D7B2765001B2399 /* SmartStudyCompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStudyCompanionUITests.swift; sourceTree = "<group>"; };
+		15C806812D7B2765001B2399 /* SmartStudyCompanionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartStudyCompanionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15C8068E2D7B27B9001B2399 /* SmartStudyCompanion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartStudyCompanion.entitlements; sourceTree = "<group>"; };
+		86157FAE2D92836A00AB7005 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		86157FB02D92838C00AB7005 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		86157FB42D929A9100AB7005 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+		86157FC12D92AE9600AB7005 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
+		86157FC82D92D83500AB7005 /* Badum-tss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Badum-tss.mp3"; sourceTree = "<group>"; };
+		869F232F2D93120300170DAA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		869F23362D932B4800170DAA /* bear-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bear-sound.mp3"; sourceTree = "<group>"; };
+		869F23382D932B5E00170DAA /* action-game-music-background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "action-game-music-background.mp3"; sourceTree = "<group>"; };
+		869F233A2D932B6A00170DAA /* ding-sound-effect-download.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ding-sound-effect-download.mp3"; sourceTree = "<group>"; };
+		869F233C2D932B7200170DAA /* farm-cow-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "farm-cow-sound-effect.mp3"; sourceTree = "<group>"; };
+		869F233E2D932B7A00170DAA /* sad-violin-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sad-violin-sound-effect.mp3"; sourceTree = "<group>"; };
+		869F23402D932B8000170DAA /* ship-siren-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ship-siren-sound.mp3"; sourceTree = "<group>"; };
+		869F23422D932B8800170DAA /* low-beep-tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "low-beep-tone.mp3"; sourceTree = "<group>"; };
+		869F23442D932B8E00170DAA /* tinkling-bells-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tinkling-bells-sound-effect.mp3"; sourceTree = "<group>"; };
+		869F23462D932B9500170DAA /* miniature-bell-chime-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "miniature-bell-chime-sound-effect.mp3"; sourceTree = "<group>"; };
+		869F23482D932B9B00170DAA /* minecraft-villager-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "minecraft-villager-sound.mp3"; sourceTree = "<group>"; };
+		869F234A2D932BA500170DAA /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C806592D7B2760001B2399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C8066E2D7B2765001B2399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C806782D7B2765001B2399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C806532D7B2760001B2399 = {
+			isa = PBXGroup;
+			children = (
+				86157FC72D92D82300AB7005 /* Sounds */,
+				15C8065E2D7B2760001B2399 /* SmartStudyCompanion */,
+				15C806742D7B2765001B2399 /* SmartStudyCompanionTests */,
+				15C8067E2D7B2765001B2399 /* SmartStudyCompanionUITests */,
+				15C8065D2D7B2760001B2399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15C8065D2D7B2760001B2399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C8065C2D7B2760001B2399 /* SmartStudyCompanion.app */,
+				15C806712D7B2765001B2399 /* SmartStudyCompanionTests.xctest */,
+				15C8067B2D7B2765001B2399 /* SmartStudyCompanionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15C8065E2D7B2760001B2399 /* SmartStudyCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				869F232F2D93120300170DAA /* Launch Screen.storyboard */,
+				15C8068E2D7B27B9001B2399 /* SmartStudyCompanion.entitlements */,
+				15C8065F2D7B2760001B2399 /* SmartStudyCompanionApp.swift */,
+				15C806612D7B2760001B2399 /* ContentView.swift */,
+				86157FC12D92AE9600AB7005 /* PressStart2P-Regular.ttf */,
+				15C806632D7B2764001B2399 /* Assets.xcassets */,
+				86157FAE2D92836A00AB7005 /* SettingsView.swift */,
+				86157FB02D92838C00AB7005 /* AchievementsView.swift */,
+				86157FB42D929A9100AB7005 /* SessionsView.swift */,
+				15C806682D7B2764001B2399 /* Persistence.swift */,
+				15C8066A2D7B2764001B2399 /* SmartStudyCompanion.xcdatamodeld */,
+				15C806652D7B2764001B2399 /* Preview Content */,
+			);
+			path = SmartStudyCompanion;
+			sourceTree = "<group>";
+		};
+		15C806652D7B2764001B2399 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15C806662D7B2764001B2399 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15C806742D7B2765001B2399 /* SmartStudyCompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				15C806752D7B2765001B2399 /* SmartStudyCompanionTests.swift */,
+			);
+			path = SmartStudyCompanionTests;
+			sourceTree = "<group>";
+		};
+		15C8067E2D7B2765001B2399 /* SmartStudyCompanionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15C8067F2D7B2765001B2399 /* SmartStudyCompanionUITests.swift */,
+				15C806812D7B2765001B2399 /* SmartStudyCompanionUITestsLaunchTests.swift */,
+			);
+			path = SmartStudyCompanionUITests;
+			sourceTree = "<group>";
+		};
+		86157FC72D92D82300AB7005 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				869F234A2D932BA500170DAA /* README.txt */,
+				86157FC82D92D83500AB7005 /* Badum-tss.mp3 */,
+				869F23362D932B4800170DAA /* bear-sound.mp3 */,
+				869F23382D932B5E00170DAA /* action-game-music-background.mp3 */,
+				869F233A2D932B6A00170DAA /* ding-sound-effect-download.mp3 */,
+				869F233C2D932B7200170DAA /* farm-cow-sound-effect.mp3 */,
+				869F233E2D932B7A00170DAA /* sad-violin-sound-effect.mp3 */,
+				869F23402D932B8000170DAA /* ship-siren-sound.mp3 */,
+				869F23422D932B8800170DAA /* low-beep-tone.mp3 */,
+				869F23442D932B8E00170DAA /* tinkling-bells-sound-effect.mp3 */,
+				869F23462D932B9500170DAA /* miniature-bell-chime-sound-effect.mp3 */,
+				869F23482D932B9B00170DAA /* minecraft-villager-sound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15C8065B2D7B2760001B2399 /* SmartStudyCompanion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C806852D7B2765001B2399 /* Build configuration list for PBXNativeTarget "SmartStudyCompanion" */;
+			buildPhases = (
+				15C806582D7B2760001B2399 /* Sources */,
+				15C806592D7B2760001B2399 /* Frameworks */,
+				15C8065A2D7B2760001B2399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartStudyCompanion;
+			productName = SmartStudyCompanion;
+			productReference = 15C8065C2D7B2760001B2399 /* SmartStudyCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15C806702D7B2765001B2399 /* SmartStudyCompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C806882D7B2765001B2399 /* Build configuration list for PBXNativeTarget "SmartStudyCompanionTests" */;
+			buildPhases = (
+				15C8066D2D7B2765001B2399 /* Sources */,
+				15C8066E2D7B2765001B2399 /* Frameworks */,
+				15C8066F2D7B2765001B2399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C806732D7B2765001B2399 /* PBXTargetDependency */,
+			);
+			name = SmartStudyCompanionTests;
+			productName = SmartStudyCompanionTests;
+			productReference = 15C806712D7B2765001B2399 /* SmartStudyCompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15C8067A2D7B2765001B2399 /* SmartStudyCompanionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C8068B2D7B2765001B2399 /* Build configuration list for PBXNativeTarget "SmartStudyCompanionUITests" */;
+			buildPhases = (
+				15C806772D7B2765001B2399 /* Sources */,
+				15C806782D7B2765001B2399 /* Frameworks */,
+				15C806792D7B2765001B2399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C8067D2D7B2765001B2399 /* PBXTargetDependency */,
+			);
+			name = SmartStudyCompanionUITests;
+			productName = SmartStudyCompanionUITests;
+			productReference = 15C8067B2D7B2765001B2399 /* SmartStudyCompanionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15C806542D7B2760001B2399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					15C8065B2D7B2760001B2399 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					15C806702D7B2765001B2399 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 15C8065B2D7B2760001B2399;
+					};
+					15C8067A2D7B2765001B2399 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 15C8065B2D7B2760001B2399;
+					};
+				};
+			};
+			buildConfigurationList = 15C806572D7B2760001B2399 /* Build configuration list for PBXProject "SmartStudyCompanion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15C806532D7B2760001B2399;
+			productRefGroup = 15C8065D2D7B2760001B2399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15C8065B2D7B2760001B2399 /* SmartStudyCompanion */,
+				15C806702D7B2765001B2399 /* SmartStudyCompanionTests */,
+				15C8067A2D7B2765001B2399 /* SmartStudyCompanionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C8065A2D7B2760001B2399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86157FC22D92AE9600AB7005 /* PressStart2P-Regular.ttf in Resources */,
+				869F23492D932B9B00170DAA /* minecraft-villager-sound.mp3 in Resources */,
+				869F23452D932B8E00170DAA /* tinkling-bells-sound-effect.mp3 in Resources */,
+				869F23432D932B8800170DAA /* low-beep-tone.mp3 in Resources */,
+				869F23412D932B8000170DAA /* ship-siren-sound.mp3 in Resources */,
+				869F23472D932B9500170DAA /* miniature-bell-chime-sound-effect.mp3 in Resources */,
+				869F234B2D932BB700170DAA /* README.txt in Resources */,
+				15C806672D7B2764001B2399 /* Preview Assets.xcassets in Resources */,
+				15C806642D7B2764001B2399 /* Assets.xcassets in Resources */,
+				869F233F2D932B7A00170DAA /* sad-violin-sound-effect.mp3 in Resources */,
+				869F233B2D932B6A00170DAA /* ding-sound-effect-download.mp3 in Resources */,
+				869F23302D93120300170DAA /* Launch Screen.storyboard in Resources */,
+				869F233D2D932B7200170DAA /* farm-cow-sound-effect.mp3 in Resources */,
+				869F23372D932B4800170DAA /* bear-sound.mp3 in Resources */,
+				869F23392D932B5E00170DAA /* action-game-music-background.mp3 in Resources */,
+				86157FC92D92D83500AB7005 /* Badum-tss.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C8066F2D7B2765001B2399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C806792D7B2765001B2399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C806582D7B2760001B2399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C8066C2D7B2764001B2399 /* SmartStudyCompanion.xcdatamodeld in Sources */,
+				15C806692D7B2764001B2399 /* Persistence.swift in Sources */,
+				86157FB52D929A9100AB7005 /* SessionsView.swift in Sources */,
+				86157FB12D92838C00AB7005 /* AchievementsView.swift in Sources */,
+				86157FAF2D92836A00AB7005 /* SettingsView.swift in Sources */,
+				15C806622D7B2760001B2399 /* ContentView.swift in Sources */,
+				15C806602D7B2760001B2399 /* SmartStudyCompanionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C8066D2D7B2765001B2399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C806762D7B2765001B2399 /* SmartStudyCompanionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C806772D7B2765001B2399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C806802D7B2765001B2399 /* SmartStudyCompanionUITests.swift in Sources */,
+				15C806822D7B2765001B2399 /* SmartStudyCompanionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15C806732D7B2765001B2399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C8065B2D7B2760001B2399 /* SmartStudyCompanion */;
+			targetProxy = 15C806722D7B2765001B2399 /* PBXContainerItemProxy */;
+		};
+		15C8067D2D7B2765001B2399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C8065B2D7B2760001B2399 /* SmartStudyCompanion */;
+			targetProxy = 15C8067C2D7B2765001B2399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15C806832D7B2765001B2399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15C806842D7B2765001B2399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15C806862D7B2765001B2399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartStudyCompanion/SmartStudyCompanion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartStudyCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = YQHC4F7F52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project3.SmartStudyCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15C806872D7B2765001B2399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartStudyCompanion/SmartStudyCompanion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartStudyCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = YQHC4F7F52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project3.SmartStudyCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15C806892D7B2765001B2399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project3.SmartStudyCompanionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartStudyCompanion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartStudyCompanion";
+			};
+			name = Debug;
+		};
+		15C8068A2D7B2765001B2399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project3.SmartStudyCompanionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartStudyCompanion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartStudyCompanion";
+			};
+			name = Release;
+		};
+		15C8068C2D7B2765001B2399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project3.SmartStudyCompanionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartStudyCompanion;
+			};
+			name = Debug;
+		};
+		15C8068D2D7B2765001B2399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project3.SmartStudyCompanionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartStudyCompanion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C806572D7B2760001B2399 /* Build configuration list for PBXProject "SmartStudyCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C806832D7B2765001B2399 /* Debug */,
+				15C806842D7B2765001B2399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C806852D7B2765001B2399 /* Build configuration list for PBXNativeTarget "SmartStudyCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C806862D7B2765001B2399 /* Debug */,
+				15C806872D7B2765001B2399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C806882D7B2765001B2399 /* Build configuration list for PBXNativeTarget "SmartStudyCompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C806892D7B2765001B2399 /* Debug */,
+				15C8068A2D7B2765001B2399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C8068B2D7B2765001B2399 /* Build configuration list for PBXNativeTarget "SmartStudyCompanionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C8068C2D7B2765001B2399 /* Debug */,
+				15C8068D2D7B2765001B2399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15C8066A2D7B2764001B2399 /* SmartStudyCompanion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15C8066B2D7B2764001B2399 /* SmartStudyCompanion.xcdatamodel */,
+			);
+			currentVersion = 15C8066B2D7B2764001B2399 /* SmartStudyCompanion.xcdatamodel */;
+			path = SmartStudyCompanion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15C806542D7B2760001B2399 /* Project object */;
+}
