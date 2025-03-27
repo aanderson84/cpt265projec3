@@ -29,17 +29,19 @@ struct ContentView: View {
         
         var player: AVAudioPlayer?
         
-        func playSound() {
-            
-            guard let url = URL(string: "") else {
+        func playSound(soundFileName: String) {
+            //included the "sounds" folder
+            guard let url = Bundle.main.url(forResource: soundFileName, withExtension: nil) else {
+                print("Sound File '\(soundFileName)' not found in bundle.")
                 return
             }
             do{
                 
                 
                 player =  try AVAudioPlayer(contentsOf: url)
+                player?.prepareToPlay()
                 player?.play()
-            } catch let error {
+            } catch {
                 print("Error playing sound. \(error.localizedDescription)")
             }
         }
@@ -75,7 +77,7 @@ struct ContentView: View {
                             .opacity(0.5)
                             .foregroundColor(.white)
                         Circle()
-                            .trim(from:0.0, to:CGFloat(1.0 - Double(timeRemaining)/(25.0 * 60)))
+                            .trim(from:0.0, to:CGFloat(1.0 - Double(timeRemaining) / Double(initialTime)))
                             .stroke(style: StrokeStyle(lineWidth:20, lineCap:.round))
                             .rotationEffect(.degrees(-90))
                         Text(timeString(time: timeRemaining))
@@ -239,18 +241,19 @@ struct ContentView: View {
     func resetTimer() {
         isActive = false
         timeRemaining = (Int(customMinutes) ?? 25) * 60
-        initialTime = timeRemaining // Reset Initial Time
+        initialTime = timeRemaining // Sync Initial Time
         isBreak = false
     }
     
     func endSession() {
         isActive = false
         saveSession()
+        SoundManager.instance.playSound(soundFileName: "Badum-tss.mp3")
         if !isBreak {
             // Start 5 minute Break
             isBreak = true
             timeRemaining = 5 * 60
-            initialTime = 5 * 60 // Set initial time for break
+            initialTime = 5 * 60 // Sync for break
             isActive = true
         } else {
             isBreak = false
